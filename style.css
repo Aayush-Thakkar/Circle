@@ -1,0 +1,34 @@
+/* Center the content */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5f3fc; /* Light blue, will animate later */
+  transition: background 3s ease;
+}
+
+/* Create the circle */
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+}
+#start-btn {
+  position: absolute;
+  top: 20px;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#start-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
